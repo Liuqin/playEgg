@@ -1,0 +1,1 @@
+"C:\Users\Administrator\AppData\Local\Microsoft\VisualStudio\12.0\Extensions\4r2ivmdh.032\Resources\egret.cmd" %*
