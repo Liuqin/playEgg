@@ -1,0 +1,6 @@
+C:\Users\Administrator\Documents\GitHub\playEgg\PlayEgg\PlayEgg\bin\PlayEgg.dll.config
+C:\Users\Administrator\Documents\GitHub\playEgg\PlayEgg\PlayEgg\bin\PlayEgg.dll
+C:\Users\Administrator\Documents\GitHub\playEgg\PlayEgg\PlayEgg\bin\PlayEgg.pdb
+C:\Users\Administrator\Documents\GitHub\playEgg\PlayEgg\PlayEgg\obj\Debug\PlayEgg.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\playEgg\PlayEgg\PlayEgg\obj\Debug\PlayEgg.dll
+C:\Users\Administrator\Documents\GitHub\playEgg\PlayEgg\PlayEgg\obj\Debug\PlayEgg.pdb
