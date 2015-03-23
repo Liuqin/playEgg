@@ -97,8 +97,15 @@ var Main = (function (_super) {
         //在GUI范围内一律使用addElement等方法替代addChild等方法。
         this.guiLayer.addElement(button);
     };
-    Main.prototype.onButtonClick = function (event) {
+    Main.prototype.onButtonClick = function (evt) {
+        var btn = evt.target;
+        btn.visible = false;
+        var egg = new EggSprite();
+        this.addChild(egg);
+        egg.targetPoint = { x: 100, y: 300 };
+        EggSprite.EggTween(egg);
     };
     return Main;
 })(egret.DisplayObjectContainer);
+Main.prototype.__class__ = "Main";
 //# sourceMappingURL=Main.js.map

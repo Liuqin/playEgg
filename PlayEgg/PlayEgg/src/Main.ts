@@ -107,8 +107,14 @@ class Main extends egret.DisplayObjectContainer{
         this.guiLayer.addElement(button);
     }
 
-    private onButtonClick(event:egret.TouchEvent):void{
-       
+    private onButtonClick(evt: egret.TouchEvent): void
+    {
+        var btn: egret.Sprite = evt.target;
+        btn.visible = false;
+        var egg = new EggSprite();
+        this.addChild(egg);
+        egg.targetPoint = { x: 100, y: 300 };
+        EggSprite.EggTween(egg);
     }
 }
 
