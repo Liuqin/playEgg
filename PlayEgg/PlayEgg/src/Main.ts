@@ -101,14 +101,14 @@ class Main extends egret.DisplayObjectContainer{
         var button:egret.gui.Button = new egret.gui.Button();
         button.horizontalCenter = 0;
         button.verticalCenter = 0;
-        button.label = "点击弹窗";
+        button.label = "开始游戏";
         button.addEventListener(egret.TouchEvent.TOUCH_TAP,this.onButtonClick,this);
         //在GUI范围内一律使用addElement等方法替代addChild等方法。
         this.guiLayer.addElement(button);
     }
 
     private onButtonClick(event:egret.TouchEvent):void{
-        egret.gui.Alert.show("这是一个GUI弹窗!","弹窗")
+       
     }
 }
 
